@@ -1,0 +1,17 @@
+# models and caches
+*.gguf
+models/
+.rag_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# documents are not distributed with this repo
+*.pdf
+
+# local environments and outputs
+venv/
+.venv/
+chat_*.md
+chat_history_*.md
+.env

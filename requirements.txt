@@ -1,0 +1,11 @@
+# Capstone app (tested with these versions)
+# For GPU inference, install a CUDA build of llama-cpp-python first, e.g.:
+#   pip install llama-cpp-python==0.3.19 --only-binary=llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+llama-cpp-python>=0.3,<0.4
+gradio==6.30.0
+pymupdf==1.28.2
+easyocr==1.7.2
+llama-index-core==0.14.25
+llama-index-embeddings-huggingface==0.8.0
+huggingface-hub
+pandas

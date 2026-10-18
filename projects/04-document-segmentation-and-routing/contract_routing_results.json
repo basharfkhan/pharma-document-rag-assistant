@@ -1,0 +1,251 @@
+[
+  {
+    "query": "Were there any packaging configuration changes?",
+    "predicted_doc_type": "Packaging Specification",
+    "filter_fallback_used": false,
+    "matched_chunks": [
+      {
+        "text": "5. Drawing Changes\nDrawing DWG-29477427-PKG-R3 supersedes DWG-29477427-PKG-R2.\nKey changes located on drawing:\n- Sheet 1: Updated tray cavity dimensions (Section B-B)\n- Sheet 2: New lid film sealing parameters (Detail C)\n- Sheet 3: Updated label placement (per ECN-2023-0847)\nApproved by: Packaging Engineering, Cytiva Uppsala\nDate: 2023-11-08",
+        "metadata": {
+          "doc_type": "Packaging Specification",
+          "chunk_index": 12,
+          "doc_id": "packaging_specification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 4,
+          "page_in_doc": 1
+        }
+      },
+      {
+        "text": "Packaging Component Specification (continued)\nDocument Number: PKG-SPEC-2023-0847, Page 2 of 2\n4. Configuration Change History\nRev\nDate\nECN Number\nChange Description\nA\n2019-03-15\nECN-2019-0312\nInitial release - PVC blister tray\nB\n2021-06-22\nECN-2021-0541\nUpdated tray insert dimensions per customer feedback (+3mm)\nC\n2023-11-08\nECN-2023-0847\nChanged blister material from PVC to PETG (EU Reg 2023/1297)\n5. Drawing Changes\nDrawing DWG-29477427-PKG-R3 supersedes DWG-29477427-PKG-R2.",
+        "metadata": {
+          "doc_type": "Packaging Specification",
+          "chunk_index": 11,
+          "doc_id": "packaging_specification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 4,
+          "page_in_doc": 1
+        }
+      },
+      {
+        "text": "Packaging Component Specification\nDocument Number:\nPKG-SPEC-2023-0847\nRevision:\nC\nEffective Date:\n2023-11-08\nComponent:\nAKTA ready Flow Kit Packaging Assembly\nDrawing Reference:\nDWG-29477427-PKG-R3\n1. Scope\nThis specification defines the packaging configuration for AKTA ready Flow Kit assemblies, including primary and\nsecondary packaging components.\n2. Materials\nComponent\nMaterial\nSpecification\nBlister Tray\nPETG\nASTM D1003, min 92% clarity\nLid Film\nTyvek 1073B\nPer DuPont specification\nSecondary Carton",
+        "metadata": {
+          "doc_type": "Packaging Specification",
+          "chunk_index": 9,
+          "doc_id": "packaging_specification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 3,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "PETG\nASTM D1003, min 92% clarity\nLid Film\nTyvek 1073B\nPer DuPont specification\nSecondary Carton\nCorrugated\nECT-32, C-flute\nInner Cushion\nPE Foam\n2 lb density, 1 inch thick\n3. Part Numbers\nAssembly Part Number:\nPKG-29477427-C\nBlister Tray:\nPKG-TRAY-4477-B\nLid Film:\nPKG-LID-1073-A\nSecondary Carton:\nPKG-BOX-9301-A",
+        "metadata": {
+          "doc_type": "Packaging Specification",
+          "chunk_index": 10,
+          "doc_id": "packaging_specification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 3,
+          "page_in_doc": 0
+        }
+      }
+    ],
+    "answer": "Yes, based on the context information provided, there have been packaging configuration changes. Specifically, the blister material for the AKTA ready Flow Kit Packaging Assembly has been changed from PVC to PETG, and there have been updates to the tray dimensions, lid film sealing parameters, and label placement on the drawings. These changes were approved by Packaging Engineering at Cytiva Uppsala on November 8, 2023."
+  },
+  {
+    "query": "Until when is the BSE/TSE risk assessment valid?",
+    "predicted_doc_type": "BSE/TSE Declaration",
+    "filter_fallback_used": false,
+    "matched_chunks": [
+      {
+        "text": "15 March 2023\nAssessment Valid Until:\n15 March 2028\nAssessment Reference:\nBSE-RA-2023-AKTA-001\nThis declaration is based on information provided by our raw material suppliers and our own assessment of the\nmanufacturing process.\nSigned: Quality Assurance Director\nCytiva Sweden AB\nDate: 15 March 2023",
+        "metadata": {
+          "doc_type": "BSE/TSE Declaration",
+          "chunk_index": 15,
+          "doc_id": "bse_tse_declaration_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 5,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "limited to bovine, ovine, caprine, or porcine derived materials.\nAll polymeric materials used in the manufacture of these products are of synthetic origin and comply with the following\nregulations:\n- EU Regulation (EC) No 722/2012 (BSE/TSE risk assessment)\n- EU Regulation (EC) No 1774/2002 (animal by-products)\n- United States Pharmacopeia (USP) <87> and <88>\nRisk Assessment Date:\n15 March 2023\nAssessment Valid Until:\n15 March 2028\nAssessment Reference:\nBSE-RA-2023-AKTA-001",
+        "metadata": {
+          "doc_type": "BSE/TSE Declaration",
+          "chunk_index": 14,
+          "doc_id": "bse_tse_declaration_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 5,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "Declaration Regarding Transmissible Spongiform\nEncephalopathies (BSE/TSE Compliance Statement)\nManufacturer:\nCytiva Sweden AB\nAddress:\nBjorkgatan 30, SE-751 84 Uppsala, Sweden\nProduct Family: AKTA ready Flow Kits\nApplicable Part Numbers: 29477427, 29184612, 28930182, 28930183\nDeclaration\nWe hereby declare that the above-referenced products do not contain any materials of animal origin, including but not\nlimited to bovine, ovine, caprine, or porcine derived materials.",
+        "metadata": {
+          "doc_type": "BSE/TSE Declaration",
+          "chunk_index": 13,
+          "doc_id": "bse_tse_declaration_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 5,
+          "page_in_doc": 0
+        }
+      }
+    ],
+    "answer": "The BSE/TSE risk assessment is valid until 15 March 2028."
+  },
+  {
+    "query": "What is the expiration date of the High Flow Kit, lot 15102934?",
+    "predicted_doc_type": "Certificate of Quality",
+    "filter_fallback_used": false,
+    "matched_chunks": [
+      {
+        "text": "Certificate of Quality\nThis product is manufactured in compliance with our ISO 9001 certified quality management system.\nIssued by Cytiva Westborough Quality Assurance\nThis document has been electronically produced and is valid without a signature.\nProduct:\nAKTA ready High Flow Kit\nLot Number:\n15102934\nProduct Article Number:\n28 9301 83\nDate of Manufacture:\n20190712\nProduct Description:\nHigh Flow Kit, AKTA ready\nExpiration Date:\n20210712\nProduct Release Criteria",
+        "metadata": {
+          "doc_type": "Certificate of Quality",
+          "chunk_index": 6,
+          "doc_id": "certificate_of_quality_02",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 2,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "Product Description:\nHigh Flow Kit, AKTA ready\nExpiration Date:\n20210712\nProduct Release Criteria\nWe hereby certify that the defined product has been manufactured to meet its specifications and have been verified to\nmeet predetermined Critical to Quality attributes.\nDescription\nTest Method\nResult\nAutoclave - Pump tubing\n121\u00b0C > 15 min\nConforms\nGamma Irradiation - Inlets\n25.0 - 40.0 kGy\nConforms\nFlow Rate Test\nPer specification\nConforms\nPressure Integrity Test\nPer specification\nConforms\nVisual Inspection",
+        "metadata": {
+          "doc_type": "Certificate of Quality",
+          "chunk_index": 7,
+          "doc_id": "certificate_of_quality_02",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 2,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "Certificate of Quality\nThis product is manufactured in compliance with our ISO 9001 certified quality management system.\nIssued by Cytiva Westborough Quality Assurance\nThis document has been electronically produced and is valid without a signature.\nProduct:\nAKTA ready Low Flow Kit\nLot Number:\n18356721\nProduct Article Number:\n28 9301 82\nDate of Manufacture:\n20240315\nProduct Description:\nLow Flow Kit, AKTA ready\nExpiration Date:\n20260315\nProduct Release Criteria",
+        "metadata": {
+          "doc_type": "Certificate of Quality",
+          "chunk_index": 3,
+          "doc_id": "certificate_of_quality_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 1,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "Product Description:\nLow Flow Kit, AKTA ready\nExpiration Date:\n20260315\nProduct Release Criteria\nWe hereby certify that the defined product has been manufactured to meet its specifications and have been verified to\nmeet predetermined Critical to Quality attributes.\nDescription\nTest Method\nResult\nAutoclave - Pump tubing\n121\u00b0C > 15 min\nConforms\nGamma Irradiation - Inlets\n25.0 - 40.0 kGy\nConforms\nFlow Rate Test\nPer specification\nConforms\nPressure Integrity Test\nPer specification\nConforms\nVisual Inspection",
+        "metadata": {
+          "doc_type": "Certificate of Quality",
+          "chunk_index": 4,
+          "doc_id": "certificate_of_quality_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 1,
+          "page_in_doc": 0
+        }
+      }
+    ],
+    "answer": "The expiration date of the High Flow Kit, lot 15102934 is 20210712."
+  },
+  {
+    "query": "Which sub-suppliers provide materials, and are they approved?",
+    "predicted_doc_type": "Supplier Qualification",
+    "filter_fallback_used": false,
+    "matched_chunks": [
+      {
+        "text": "Supplier Qualification Record (continued)\nSupplier: Cytiva Sweden AB (SUP-2019-0847), Page 2 of 2\n4. Supply Chain Information\nManufacturing Site:\nCytiva Eysins Facility, Eysins, Switzerland\nSecondary Site:\nCytiva Uppsala Facility, Uppsala, Sweden\nWarehouse:\nCytiva Distribution Center, Marlborough, MA, USA\nSub-Supplier Information:\nSub-Supplier\nMaterial Provided\nQualification Status\nDuPont (Tyvek)\nLid film (1073B)\nApproved (2020)\nWacker Chemie AG\nSilicone tubing\nApproved (2019)\nSabic Innovative",
+        "metadata": {
+          "doc_type": "Supplier Qualification",
+          "chunk_index": 22,
+          "doc_id": "supplier_qualification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 8,
+          "page_in_doc": 1
+        }
+      },
+      {
+        "text": "Lid film (1073B)\nApproved (2020)\nWacker Chemie AG\nSilicone tubing\nApproved (2019)\nSabic Innovative\nPolypropylene resin\nApproved (2021)\nSchott AG\nBorosilicate glass\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Reference: QA-2019-CYTIVA-0847\nAgreement Date:\n14 September 2019\nLast Reviewed:\n20 November 2023\nKey Terms: Annual audit rights, CAPA notification within 48 hours, change notification 90 days prior to implementation.\n6. Performance Metrics (Last 12 Months)\nOn-Time Delivery:\n97.3%",
+        "metadata": {
+          "doc_type": "Supplier Qualification",
+          "chunk_index": 23,
+          "doc_id": "supplier_qualification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 8,
+          "page_in_doc": 1
+        }
+      },
+      {
+        "text": "Valid Until\nISO 9001:2015\nQMS-SE-2021-4847\n2024-12-31\nISO 13485:2016\nMD-SE-2021-1293\n2024-12-31\nFDA Establishment\n3007488211\nActive\nEU Authorized Rep\nAR-2020-CYTIVA\nActive\n3. Approved Products\nPart Number\nDescription\nCategory\n29477427\nHigh Flow Kit F, Modified, AKTA ready\nFlow Kit\n29184612\nHigh Flow Gradient C, Modified\nFlow Kit\n28930182\nLow Flow Kit, AKTA ready\nFlow Kit\n28930183\nHigh Flow Kit, AKTA ready\nFlow Kit\n29021085\nAKTA ready Gradient Low Flow Section\nFlow Section\n29021086",
+        "metadata": {
+          "doc_type": "Supplier Qualification",
+          "chunk_index": 20,
+          "doc_id": "supplier_qualification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 7,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "Flow Kit\n29021085\nAKTA ready Gradient Low Flow Section\nFlow Section\n29021086\nAKTA ready Gradient High Flow Section\nFlow Section",
+        "metadata": {
+          "doc_type": "Supplier Qualification",
+          "chunk_index": 21,
+          "doc_id": "supplier_qualification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 7,
+          "page_in_doc": 0
+        }
+      }
+    ],
+    "answer": "Based on the context information provided, the following sub-suppliers provide materials and have been approved:\n\n1. DuPont (Tyvek) - Lid film (1073B) - Approved (2020)\n2. Wacker Chemie AG - Silicone tubing - Approved (2019)\n3. Sabic Innovative - Polypropylene resin - Approved (2021)\n\nTherefore, the answer to the query is that DuPont (Tyvek), Wacker Chemie AG, and Sabic Innovative are approved sub-suppliers who provide materials."
+  },
+  {
+    "query": "What change was made under ECN-2021-0541?",
+    "predicted_doc_type": "Supplier Qualification",
+    "filter_fallback_used": true,
+    "matched_chunks": [
+      {
+        "text": "Packaging Component Specification (continued)\nDocument Number: PKG-SPEC-2023-0847, Page 2 of 2\n4. Configuration Change History\nRev\nDate\nECN Number\nChange Description\nA\n2019-03-15\nECN-2019-0312\nInitial release - PVC blister tray\nB\n2021-06-22\nECN-2021-0541\nUpdated tray insert dimensions per customer feedback (+3mm)\nC\n2023-11-08\nECN-2023-0847\nChanged blister material from PVC to PETG (EU Reg 2023/1297)\n5. Drawing Changes\nDrawing DWG-29477427-PKG-R3 supersedes DWG-29477427-PKG-R2.",
+        "metadata": {
+          "doc_type": "Packaging Specification",
+          "chunk_index": 11,
+          "doc_id": "packaging_specification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 4,
+          "page_in_doc": 1
+        }
+      },
+      {
+        "text": "15 March 2023\nAssessment Valid Until:\n15 March 2028\nAssessment Reference:\nBSE-RA-2023-AKTA-001\nThis declaration is based on information provided by our raw material suppliers and our own assessment of the\nmanufacturing process.\nSigned: Quality Assurance Director\nCytiva Sweden AB\nDate: 15 March 2023",
+        "metadata": {
+          "doc_type": "BSE/TSE Declaration",
+          "chunk_index": 15,
+          "doc_id": "bse_tse_declaration_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 5,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "limited to bovine, ovine, caprine, or porcine derived materials.\nAll polymeric materials used in the manufacture of these products are of synthetic origin and comply with the following\nregulations:\n- EU Regulation (EC) No 722/2012 (BSE/TSE risk assessment)\n- EU Regulation (EC) No 1774/2002 (animal by-products)\n- United States Pharmacopeia (USP) <87> and <88>\nRisk Assessment Date:\n15 March 2023\nAssessment Valid Until:\n15 March 2028\nAssessment Reference:\nBSE-RA-2023-AKTA-001",
+        "metadata": {
+          "doc_type": "BSE/TSE Declaration",
+          "chunk_index": 14,
+          "doc_id": "bse_tse_declaration_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 5,
+          "page_in_doc": 0
+        }
+      },
+      {
+        "text": "5. Drawing Changes\nDrawing DWG-29477427-PKG-R3 supersedes DWG-29477427-PKG-R2.\nKey changes located on drawing:\n- Sheet 1: Updated tray cavity dimensions (Section B-B)\n- Sheet 2: New lid film sealing parameters (Detail C)\n- Sheet 3: Updated label placement (per ECN-2023-0847)\nApproved by: Packaging Engineering, Cytiva Uppsala\nDate: 2023-11-08",
+        "metadata": {
+          "doc_type": "Packaging Specification",
+          "chunk_index": 12,
+          "doc_id": "packaging_specification_01",
+          "source_file": "pharma-blob-sample.pdf",
+          "page": 4,
+          "page_in_doc": 1
+        }
+      }
+    ],
+    "answer": "The change made under ECN-2021-0541 was an update to the tray insert dimensions. The dimensions were increased by +3mm based on customer feedback."
+  }
+]

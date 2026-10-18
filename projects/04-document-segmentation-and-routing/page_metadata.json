@@ -1,0 +1,52 @@
+[
+  {
+    "page": 0,
+    "doc_id": 0,
+    "doc_type": "Cover Letter"
+  },
+  {
+    "page": 1,
+    "doc_id": 1,
+    "doc_type": "Certificate of Quality"
+  },
+  {
+    "page": 2,
+    "doc_id": 2,
+    "doc_type": "Certificate of Quality"
+  },
+  {
+    "page": 3,
+    "doc_id": 3,
+    "doc_type": "Packaging Specification"
+  },
+  {
+    "page": 4,
+    "doc_id": 3,
+    "doc_type": "Packaging Specification"
+  },
+  {
+    "page": 5,
+    "doc_id": 4,
+    "doc_type": "BSE/TSE Declaration"
+  },
+  {
+    "page": 6,
+    "doc_id": 5,
+    "doc_type": "Material Description"
+  },
+  {
+    "page": 7,
+    "doc_id": 6,
+    "doc_type": "Supplier Qualification"
+  },
+  {
+    "page": 8,
+    "doc_id": 6,
+    "doc_type": "Supplier Qualification"
+  },
+  {
+    "page": 9,
+    "doc_id": 7,
+    "doc_type": "Chain of Custody"
+  }
+]

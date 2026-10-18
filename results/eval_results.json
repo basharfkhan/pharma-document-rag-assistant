@@ -1,0 +1,446 @@
+{
+  "ingest": {
+    "files": 2,
+    "pages": 20,
+    "ocr_pages": 10,
+    "documents": 15,
+    "chunks": 51,
+    "extract_s": 135.2,
+    "segment_s": 375.9,
+    "total_s": 512.8
+  },
+  "ocr_word_recall": 0.9945045396460465,
+  "ocr_page_recalls": [
+    0.9903381642512077,
+    1.0,
+    1.0,
+    0.9906976744186047,
+    1.0,
+    0.9848484848484849,
+    0.9876543209876543,
+    0.9952380952380953,
+    1.0,
+    0.996268656716418
+  ],
+  "retrieval": [
+    {
+      "question": "What is the recommended storage temperature for the AKTA ready flow kits?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 0.02
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 7.15
+      },
+      "route": "question not specific to one document type; searched all"
+    },
+    {
+      "question": "When does the BSE/TSE risk assessment for the AKTA flow kits expire?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 0.02
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 3.48
+      },
+      "route": "routed to BSE/TSE Declaration"
+    },
+    {
+      "question": "What is the expiration date of lot 15102934?",
+      "All documents": false,
+      "All documents metrics": {
+        "recall": 0.0,
+        "precision": 0.0,
+        "rr": 0.0,
+        "latency_s": 0.03
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "rr": 1.0,
+        "latency_s": 2.75
+      },
+      "route": "routed to Certificate of Quality, but 15102934 was not there; found it by exact match"
+    },
+    {
+      "question": "When was Cytiva last audited?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "rr": 0.5,
+        "latency_s": 0.02
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 0.5,
+        "latency_s": 2.72
+      },
+      "route": "routed to Supplier Qualification"
+    },
+    {
+      "question": "What gamma dose range did batch D000291847 receive?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "rr": 1.0,
+        "latency_s": 0.03
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "rr": 1.0,
+        "latency_s": 2.85
+      },
+      "route": "routed to Certificate of Quality"
+    },
+    {
+      "question": "Until when is the West animal origin statement valid?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 0.02
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 3.24
+      },
+      "route": "routed to BSE/TSE Declaration"
+    },
+    {
+      "question": "Which sub-suppliers provide materials for the West stoppers?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "rr": 0.5,
+        "latency_s": 0.03
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "rr": 0.5,
+        "latency_s": 2.85
+      },
+      "route": "routed to Supplier Qualification"
+    },
+    {
+      "question": "What change was made under ECN-2024-0027?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "rr": 0.5,
+        "latency_s": 0.02
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "rr": 1.0,
+        "latency_s": 3.16
+      },
+      "route": "routed to Supplier Qualification, but ECN-2024-0027 was not there; found it by exact match"
+    },
+    {
+      "question": "What is the Shore A hardness specification of the West stopper?",
+      "All documents": true,
+      "All documents metrics": {
+        "recall": 0.5,
+        "precision": 0.5,
+        "rr": 1.0,
+        "latency_s": 0.02
+      },
+      "Auto": true,
+      "Auto metrics": {
+        "recall": 0.5,
+        "precision": 0.75,
+        "rr": 1.0,
+        "latency_s": 2.49
+      },
+      "route": "routed to Material Description"
+    }
+  ],
+  "retrieval_summary": {
+    "All documents": {
+      "recall": 0.833,
+      "precision": 0.417,
+      "rr": 0.722,
+      "latency_s": 0.023,
+      "hit_rate": 0.8888888888888888
+    },
+    "Auto": {
+      "recall": 0.944,
+      "precision": 0.5,
+      "rr": 0.889,
+      "latency_s": 3.41,
+      "hit_rate": 1.0
+    }
+  },
+  "answers": [
+    {
+      "question": "What is the recommended storage temperature for the AKTA ready flow kits?",
+      "answer": "The recommended storage temperature for AKTA ready flow kits is greater than +5\u00b0C [1]. However, the operating temperature of AKTA ready flow kits is +2\u00b0C to +40\u00b0C [1]. Therefore, it is recommended to allow the kits to acclimate to a warmer temperature before use to reduce the risk of damage during setup and handling [1].",
+      "correct": true,
+      "cited_right_page": true,
+      "route": "question not specific to one document type; searched all",
+      "level": "High",
+      "top_similarity": 0.93,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        1
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.03,
+      "generate_s": 41.1,
+      "total_s": 41.1,
+      "sources": [
+        "pharma-blob-sample.pdf p1 (0.93)",
+        "pharma-blob-sample.pdf p1 (0.78)",
+        "pharma-blob-sample.pdf p3 (0.77)",
+        "pharma-blob-sample.pdf p2 (0.76)"
+      ]
+    },
+    {
+      "question": "When does the BSE/TSE risk assessment for the AKTA flow kits expire?",
+      "answer": "The BSE/TSE risk assessment for the AKTA flow kits expires on 15 March 2028, according to source [2].",
+      "correct": true,
+      "cited_right_page": true,
+      "route": "routed to BSE/TSE Declaration",
+      "level": "High",
+      "top_similarity": 0.757,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        2
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.02,
+      "generate_s": 29.8,
+      "total_s": 29.8,
+      "sources": [
+        "pharma-blob-sample.pdf p6 (0.76)",
+        "pharma-blob-sample.pdf p6 (0.75)",
+        "pharma-blob-test-scanned.pdf p6 (0.68)",
+        "pharma-blob-test-scanned.pdf p6 (0.62)"
+      ]
+    },
+    {
+      "question": "What is the expiration date of lot 15102934?",
+      "answer": "The expiration date of lot 15102934 is 20210712. [1]",
+      "correct": true,
+      "cited_right_page": true,
+      "route": "routed to Certificate of Quality, but 15102934 was not there; found it by exact match",
+      "level": "Medium",
+      "top_similarity": 0.543,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        1
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.11,
+      "generate_s": 32.4,
+      "total_s": 32.5,
+      "sources": [
+        "pharma-blob-sample.pdf p3 (0.54)",
+        "pharma-blob-test-scanned.pdf p3 (0.62)",
+        "pharma-blob-test-scanned.pdf p3 (0.58)",
+        "pharma-blob-test-scanned.pdf p8 (0.57)"
+      ]
+    },
+    {
+      "question": "When was Cytiva last audited?",
+      "answer": "The last on-site audit for Cytiva was on 20 November 2023 [1].",
+      "correct": true,
+      "cited_right_page": false,
+      "route": "routed to Supplier Qualification",
+      "level": "High",
+      "top_similarity": 0.684,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        1
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.02,
+      "generate_s": 28.8,
+      "total_s": 28.8,
+      "sources": [
+        "pharma-blob-sample.pdf p9 (0.68)",
+        "pharma-blob-sample.pdf p8 (0.65)",
+        "pharma-blob-sample.pdf p9 (0.60)",
+        "pharma-blob-sample.pdf p8 (0.57)"
+      ]
+    },
+    {
+      "question": "What gamma dose range did batch D000291847 receive?",
+      "answer": "The gamma dose range for batch D000291847 is 25.0 kGy (min) to 50.0 kGy (max) [1]. However, the document does not provide the specific dose received by this batch. Therefore, I could not find this in the uploaded documents.",
+      "correct": false,
+      "cited_right_page": true,
+      "route": "routed to Certificate of Quality",
+      "level": "Low",
+      "top_similarity": 0.739,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        1
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.02,
+      "generate_s": 37.1,
+      "total_s": 37.1,
+      "sources": [
+        "pharma-blob-test-scanned.pdf p10 (0.74)",
+        "pharma-blob-test-scanned.pdf p10 (0.66)",
+        "pharma-blob-test-scanned.pdf p10 (0.66)",
+        "pharma-blob-test-scanned.pdf p10 (0.66)"
+      ]
+    },
+    {
+      "question": "Until when is the West animal origin statement valid?",
+      "answer": "The West animal origin statement is valid until 05 March 2029. [2]",
+      "correct": true,
+      "cited_right_page": true,
+      "route": "routed to BSE/TSE Declaration",
+      "level": "High",
+      "top_similarity": 0.709,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        2
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.02,
+      "generate_s": 25.4,
+      "total_s": 25.4,
+      "sources": [
+        "pharma-blob-test-scanned.pdf p6 (0.71)",
+        "pharma-blob-test-scanned.pdf p6 (0.67)",
+        "pharma-blob-sample.pdf p6 (0.65)",
+        "pharma-blob-sample.pdf p6 (0.65)"
+      ]
+    },
+    {
+      "question": "Which sub-suppliers provide materials for the West stoppers?",
+      "answer": "ExxonMobil Chemical provides the Chlorobutyl rubber (CIIR) for the West stoppers [2].\n\nHowever, the specific sub-suppliers for the stopper components themselves are not listed in the provided sources.",
+      "correct": false,
+      "cited_right_page": true,
+      "route": "routed to Supplier Qualification",
+      "level": "High",
+      "top_similarity": 0.651,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        2
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.03,
+      "generate_s": 32.9,
+      "total_s": 32.9,
+      "sources": [
+        "pharma-blob-test-scanned.pdf p8 (0.65)",
+        "pharma-blob-test-scanned.pdf p9 (0.64)",
+        "pharma-blob-test-scanned.pdf p8 (0.61)",
+        "pharma-blob-sample.pdf p9 (0.59)"
+      ]
+    },
+    {
+      "question": "What change was made under ECN-2024-0027?",
+      "answer": "The carton ECT rating was updated under ECN-2024-0027. [1]",
+      "correct": false,
+      "cited_right_page": true,
+      "route": "routed to Supplier Qualification, but ECN-2024-0027 was not there; found it by exact match",
+      "level": "High",
+      "top_similarity": 0.653,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        1
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.11,
+      "generate_s": 28.9,
+      "total_s": 29.0,
+      "sources": [
+        "pharma-blob-test-scanned.pdf p5 (0.65)",
+        "pharma-blob-sample.pdf p6 (0.65)",
+        "pharma-blob-sample.pdf p5 (0.64)",
+        "pharma-blob-sample.pdf p9 (0.59)"
+      ]
+    },
+    {
+      "question": "What is the Shore A hardness specification of the West stopper?",
+      "answer": "The Shore A hardness specification of the West stopper is 50 + 5. [1][2]",
+      "correct": true,
+      "cited_right_page": true,
+      "route": "routed to Material Description",
+      "level": "High",
+      "top_similarity": 0.737,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [
+        1,
+        2
+      ],
+      "chunks": 4,
+      "retrieve_s": 0.03,
+      "generate_s": 28.5,
+      "total_s": 28.6,
+      "sources": [
+        "pharma-blob-test-scanned.pdf p7 (0.74)",
+        "pharma-blob-test-scanned.pdf p7 (0.66)",
+        "pharma-blob-test-scanned.pdf p7 (0.64)",
+        "pharma-blob-sample.pdf p7 (0.59)"
+      ]
+    },
+    {
+      "question": "What is the capital of France?",
+      "answer": "I could not find this in the uploaded documents.",
+      "correct": true,
+      "cited_right_page": null,
+      "route": "question not specific to one document type; searched all",
+      "level": "Low",
+      "top_similarity": 0.458,
+      "grounding": 1.0,
+      "unsupported_numbers": [],
+      "cited": [],
+      "chunks": 4,
+      "retrieve_s": 8.6,
+      "generate_s": 34.8,
+      "total_s": 43.4,
+      "sources": [
+        "pharma-blob-test-scanned.pdf p6 (0.46)",
+        "pharma-blob-test-scanned.pdf p7 (0.45)",
+        "pharma-blob-test-scanned.pdf p6 (0.44)",
+        "pharma-blob-test-scanned.pdf p5 (0.44)"
+      ]
+    }
+  ]
+}

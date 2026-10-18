@@ -1,0 +1,442 @@
+[
+  {
+    "query": "What are the part numbers listed in this document?",
+    "predicted_doc_type": "packaging_specification",
+    "matched_documents": [
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "packaging_specification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 4,
+        "text": "Packaging Component Specification\nDocument Number:\nPKG-SPEC-2023-0847\nRevision:\nC\nEffective Date:\n2023-11-08\nComponent:\nAKTA ready Flow Kit Packaging Assembly\nDrawing Reference:\nDWG-29477427-PKG-R3\n1. Scope\nThis specification defines the packaging configuration for AKTA ready Flow Kit assemblies, including primary and\nsecondary packaging components.\n2. Materials\nComponent\nMaterial\nSpecification\nBlister Tray\nPETG\nASTM D1003, min 92% clarity\nLid Film\nTyvek 1073B\nPer DuPont specification\nSecondary Carton\nCorrugated\nECT-32, C-flute\nInner Cushion\nPE Foam\n2 lb density, 1 inch thick\n3. Part Numbers\nAssembly Part Number:\nPKG-29477427-C\nBlister Tray:\nPKG-TRAY-4477-B\nLid Film:\nPKG-LID-1073-A\nSecondary Carton:\nPKG-BOX-9301-A\n",
+        "keyword_score": 3
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "packaging_specification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 5,
+        "text": "Packaging Component Specification (continued)\nDocument Number: PKG-SPEC-2023-0847, Page 2 of 2\n4. Configuration Change History\nRev\nDate\nECN Number\nChange Description\nA\n2019-03-15\nECN-2019-0312\nInitial release - PVC blister tray\nB\n2021-06-22\nECN-2021-0541\nUpdated tray insert dimensions per customer feedback (+3mm)\nC\n2023-11-08\nECN-2023-0847\nChanged blister material from PVC to PETG (EU Reg 2023/1297)\n5. Drawing Changes\nDrawing DWG-29477427-PKG-R3 supersedes DWG-29477427-PKG-R2.\nKey changes located on drawing:\n- Sheet 1: Updated tray cavity dimensions (Section B-B)\n- Sheet 2: New lid film sealing parameters (Detail C)\n- Sheet 3: Updated label placement (per ECN-2023-0847)\nApproved by: Packaging Engineering, Cytiva Uppsala\nDate: 2023-11-08\n",
+        "keyword_score": 0
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "packaging_specification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 5,
+        "text": "West Pharmaceutical Services, Inc.\n347 Oliver Street, Jersey Shore, PA 17740\nTel: +1 (570) 398-5200  |  www.westpharma.com\nPackaging Component Specification\nDocument No.:\nWPS-SPEC-4432-REV-D\nRevision:\nD\nEffective Date:\n2024-01-15\nProduct:\n4432/50 Grey FC - 20mm Chlorobutyl Stopper\nDrawing Ref.:\nDWG-4432-PKG-R6\n1. Scope\nThis specification defines the primary and secondary packaging configuration for Item 4432/50 Grey FC rubber closures\nas supplied to Pfizer Manufacturing Belgium NV for use in parenteral vial filling operations.\n2. Primary Packaging\nComponent\nMaterial / Grade\nSpecification / Standard\nStopper Bag\nPolyethylene (LDPE)\nWPS-MAT-PE-001, 0.08 mm min wall\nBag Closure\nCable tie + heat seal\nHermetic seal, 5 kPa burst\nDesiccant Sachet\nSilica gel, 10 g\nPer MIL-D-3464E\n3. Secondary Packaging\nComponent\nMaterial / Grade\nSpecification\nOuter Carton\nCorrugated cardboard\nB-flute, 32 ECT min\nPacking Density\n5,000 pcs per bag\nPer DWG-4432-PKG-R6\nBags per Carton\n10 bags (50,000 pcs)\nMax gross wt: 18 kg\n4. Revision History\nRev\nDate\nECN No.\nDescription of Change\nA\n2017-03-10\nECN-2017-0041\nInitial release\nB\n2019-08-22\nECN-2019-0183\nAdded desiccant sachet (humidity control)\nC\n2022-05-04\nECN-2022-0309\nIncreased packing density 4k to 5k per bag\nD\n2024-01-15\nECN-2024-0027\nUpdated carton ECT rating (28 to 32 min)\nDocument No.: WPS-SPEC-4432-REV-D  |  Rev: D  |  Page 1 of 1\n",
+        "keyword_score": 0
+      }
+    ]
+  },
+  {
+    "query": "What are the BSE/TSE compliance dates?",
+    "predicted_doc_type": "bse_tse_declaration",
+    "matched_documents": [
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "bse_tse_declaration",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 6,
+        "text": "Declaration Regarding Transmissible Spongiform\nEncephalopathies (BSE/TSE Compliance Statement)\nManufacturer:\nCytiva Sweden AB\nAddress:\nBjorkgatan 30, SE-751 84 Uppsala, Sweden\nProduct Family: AKTA ready Flow Kits\nApplicable Part Numbers: 29477427, 29184612, 28930182, 28930183\nDeclaration\nWe hereby declare that the above-referenced products do not contain any materials of animal origin, including but not\nlimited to bovine, ovine, caprine, or porcine derived materials.\nAll polymeric materials used in the manufacture of these products are of synthetic origin and comply with the following\nregulations:\n- EU Regulation (EC) No 722/2012 (BSE/TSE risk assessment)\n- EU Regulation (EC) No 1774/2002 (animal by-products)\n- United States Pharmacopeia (USP) <87> and <88>\nRisk Assessment Date:\n15 March 2023\nAssessment Valid Until:\n15 March 2028\nAssessment Reference:\nBSE-RA-2023-AKTA-001\nThis declaration is based on information provided by our raw material suppliers and our own assessment of the\nmanufacturing process.\nSigned: Quality Assurance Director\nCytiva Sweden AB\nDate: 15 March 2023\n",
+        "keyword_score": 3
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "bse_tse_declaration",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 6,
+        "text": "West Pharmaceutical Services, Inc.\n347 Oliver Street, Jersey Shore, PA 17740\nTel: +1 (570) 398-5200  |  www.westpharma.com\nAnimal Origin Statement\nDocument No.: WPS-AOS-2024-001  |  Rev: B  |  Date: 05 March 2024\nManufacturer:\nWest Pharmaceutical Services, Inc.\nAddress:\n347 Oliver Street, Jersey Shore, PA 17740, USA\nProduct Family:\nFluroTec-Coated Chlorobutyl Rubber Closures\nApplicable Items:\n4432/50 Grey FC, 4432/50 Grey FC S, 4432/20 Grey FC\nStatement\nWest Pharmaceutical Services, Inc. hereby confirms that the above-referenced rubber closure products do not contain\nany materials of animal or human origin, including but not limited to:\n  *  Bovine-, ovine-, caprine-, or porcine-derived substances\n  *  Materials of ruminant origin as defined by the EU Scientific Committee\n  *  Human serum albumin or other human-derived excipients\n  *  Animal-derived processing aids retained in the final product\nFluroTec\u00ae barrier film resin (modified PTFE) is of fully synthetic origin. B2-coating is a proprietary silicon-based lubricant\ncoating; no animal-derived lubricants are used at any stage of manufacture. All raw material suppliers have confirmed in\nwriting that their materials are free of animal-origin components.\nRegulatory Basis\nThis statement is consistent with and addresses the requirements of:\n  *  European Pharmacopoeia 5.2.8 (TSE Risk Assessment)\n  *  EMEA/410/01 Rev 3 (Note for Guidance on Minimising TSE Risk)\n  *  ICH Q5A - Viral Safety Evaluation\n  *  FDA Guidance for Industry: Use of Materials of Animal Origin\nAssessment Reference:\nWPS-TSE-RA-4432-FC-2024\nValid Until:\n05 March 2029\nSigned:\nVice President, Quality & Regulatory Affairs\nDate:\n05 March 2024\nDocument No.: WPS-AOS-2024-001  |  Rev: B  |  Page 1 of 1\n",
+        "keyword_score": 0
+      }
+    ]
+  },
+  {
+    "query": "What gamma irradiation dose did batch D000291847 receive?",
+    "predicted_doc_type": "certificate_of_quality",
+    "matched_documents": [
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 10,
+        "text": "STERIS Applied Sterilization Technologies\n5960 Heisley Road, Mentor, OH 44060\nTel: +1 (440) 354-2600  |  www.steris-ast.com\nCERTIFICATE OF PROCESSING\nGamma Radiation Sterilization / Dose Audit\nProcess Run ID:\nGTN-2025-0183A\nProcess Date:\n08 January 2025\nFacility:\nSTERIS AST, Mentor Gamma Facility, Mentor, OH 44060\nPrepared For:\nWest Pharmaceutical Services, Inc., Lionville, PA\nCustomer Ref.:\nWPS-PO-2024-GA-00183\nProduct:\n4432/50 Grey FC Rubber Stoppers (20mm)\nSterilization Mode:\nGamma Radiation (Co-60 Source)\nValidated Dose Range:\n25.0 kGy (min) - 50.0 kGy (max)\nProduct Lot Table\nBatch No.\nQty (k pcs)\nPallet ID\nMin Dose (kGy)\nMax Dose (kGy)\nResult\nD000291847\n500\nPLT-0183-01\n27.3\n38.1\nPASS\nD000291852\n500\nPLT-0183-02\n26.9\n37.8\nPASS\nD000291863\n500\nPLT-0183-03\n27.5\n38.4\nPASS\nD000291871\n500\nPLT-0183-04\n27.1\n38.0\nPASS\nD000291885\n500\nPLT-0183-05\n26.8\n37.6\nPASS\nDosimetry Summary\nDosimeters Used:\nHarwell Amber (HW-Amber-1010-25)\nDosimeter Traceability:\nNIST-traceable calibration, Cal. Date: 2024-11-01\nNumber of Dosimeters:\n30 (6 per pallet - corners + centre)\nOverall Min Dose:\n26.8 kGy  (Pallet PLT-0183-05, Position B-1)\nOverall Max Dose:\n38.4 kGy  (Pallet PLT-0183-03, Position D-6)\nDose Uniformity Ratio:\n1.43  (max/min; specification <= 2.50)\nSignature Manifest\nRole\nName / Title\nDate\nProcessed By:\nJ. Kowalski, Radiation Technician\n08 Jan 2025\nReviewed By:\nS. Patel, Process Physicist\n09 Jan 2025\nAuthorised By:\nT. Nguyen, Quality Manager (STERIS Mentor)\n09 Jan 2025\nCertificate No.: GTN-2025-0183A  |  STERIS AST, Mentor, OH  |  Page 1 of 1\n",
+        "keyword_score": 22
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 3,
+        "text": "QUALITY CERTIFICATE No. 80372784-000010 (continued)\nWest Item: 4432/50 Grey FC  |  Page 2 of 3\nSection 2 - Batch / Lot Identification\nBatch No.\nQty (k pcs)\nMfg Date\nExp Date\nRelease Date\nSite\nD000291847\n500\n2024-10-02\n2029-10-01\n2024-10-21\nLionville, PA\nD000291852\n500\n2024-10-08\n2029-10-07\n2024-10-28\nLionville, PA\nD000291863\n500\n2024-10-15\n2029-10-14\n2024-11-04\nLionville, PA\nD000291871\n500\n2024-10-22\n2029-10-21\n2024-11-11\nLionville, PA\nD000291885\n500\n2024-10-30\n2029-10-29\n2024-11-19\nLionville, PA\nSection 2a - Traceability\nEach batch is manufactured from a single compound lot. Compound lot numbers are traceable to raw material\ncertificates of analysis retained on file at the manufacturing site (Lionville, PA) for a minimum of 15 years per 21 CFR\n211.180.\nBatch No.\nCompound Lot\nElastomer Raw Material\nCOA Reference\nD000291847\nCMP-24-C-00412\nChlorobutyl Rubber, Grade 1066\nCOA-4412-2024-09\nD000291852\nCMP-24-C-00412\nChlorobutyl Rubber, Grade 1066\nCOA-4412-2024-09\nD000291863\nCMP-24-C-00419\nChlorobutyl Rubber, Grade 1066\nCOA-4419-2024-10\nD000291871\nCMP-24-C-00419\nChlorobutyl Rubber, Grade 1066\nCOA-4419-2024-10\nD000291885\nCMP-24-C-00427\nChlorobutyl Rubber, Grade 1066\nCOA-4427-2024-10\nDocument No.: CERT-80372784-000010  |  Rev: -  |  Page 2 of 3\n",
+        "keyword_score": 16
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 2,
+        "text": "Certificate of Quality\nThis product is manufactured in compliance with our ISO 9001 certified quality management system.\nIssued by Cytiva Westborough Quality Assurance\nThis document has been electronically produced and is valid without a signature.\nProduct:\nAKTA ready Low Flow Kit\nLot Number:\n18356721\nProduct Article Number:\n28 9301 82\nDate of Manufacture:\n20240315\nProduct Description:\nLow Flow Kit, AKTA ready\nExpiration Date:\n20260315\nProduct Release Criteria\nWe hereby certify that the defined product has been manufactured to meet its specifications and have been verified to\nmeet predetermined Critical to Quality attributes.\nDescription\nTest Method\nResult\nAutoclave - Pump tubing\n121\u00b0C > 15 min\nConforms\nGamma Irradiation - Inlets\n25.0 - 40.0 kGy\nConforms\nFlow Rate Test\nPer specification\nConforms\nPressure Integrity Test\nPer specification\nConforms\nVisual Inspection\nPer specification\nConforms\nPackage Integrity\nPer specification\nConforms\ncytiva.com\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 3,
+        "text": "Certificate of Quality\nThis product is manufactured in compliance with our ISO 9001 certified quality management system.\nIssued by Cytiva Westborough Quality Assurance\nThis document has been electronically produced and is valid without a signature.\nProduct:\nAKTA ready High Flow Kit\nLot Number:\n15102934\nProduct Article Number:\n28 9301 83\nDate of Manufacture:\n20190712\nProduct Description:\nHigh Flow Kit, AKTA ready\nExpiration Date:\n20210712\nProduct Release Criteria\nWe hereby certify that the defined product has been manufactured to meet its specifications and have been verified to\nmeet predetermined Critical to Quality attributes.\nDescription\nTest Method\nResult\nAutoclave - Pump tubing\n121\u00b0C > 15 min\nConforms\nGamma Irradiation - Inlets\n25.0 - 40.0 kGy\nConforms\nFlow Rate Test\nPer specification\nConforms\nPressure Integrity Test\nPer specification\nConforms\nVisual Inspection\nPer specification\nConforms\nPackage Integrity\nPer specification\nConforms\ncytiva.com\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 4,
+        "text": "QUALITY CERTIFICATE No. 80372784-000010 (continued)\nWest Item: 4432/50 Grey FC  |  Page 3 of 3\nSection 3 - Analysis / Test Results\nTest Parameter\nSpecification\nD847\nD852\nD863\nD871\nD885\nAppearance\nNo visible defects\nPass\nPass\nPass\nPass\nPass\nDimensions (height, mm)\n6.80 \u00b1 0.30\n6.82\n6.81\n6.79\n6.83\n6.80\nShore A Hardness\n50 \u00b1 5\n52\n51\n50\n53\n52\nResidue on Ignition (%)\n<= 1.0\n0.42\n0.44\n0.41\n0.43\n0.42\nFragmentation (pcs)\n<= 10\n2\n1\n3\n2\n2\nSelf-Sealing (passes)\n>= 10\n10\n10\n10\n10\n10\nPenetration Force (N)\n10 - 50\n22\n24\n21\n23\n22\nExtractables pH\n5.0 - 7.5\n6.8\n6.9\n6.7\n6.8\n6.8\nFluroTec Adhesion\nConforms\nConf\nConf\nConf\nConf\nConf\nParticulate Matter\nPer USP <381>\nPass\nPass\nPass\nPass\nPass\nSterility (final pkg)\nSterile\nPass\nPass\nPass\nPass\nPass\nAuthorised Release Statement\nAll batches listed above have been reviewed against applicable specifications and are hereby released for use in\nparenteral drug product manufacturing.\nAuthorised by: Director, Analytical Sciences & Quality Release\nWest Pharmaceutical Services, Inc., Lionville, PA 19341\nDate: 18 December 2024\nThis document has been electronically signed and is valid without a wet signature.\nDocument No.: CERT-80372784-000010  |  Rev: -  |  Page 3 of 3\n",
+        "keyword_score": 1
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 2,
+        "text": "West Pharmaceutical Services, Inc.\n347 Oliver Street, Jersey Shore, PA 17740\nTel: +1 (570) 398-5200  |  www.westpharma.com\nQUALITY CERTIFICATE\nNo. 80372784-000010\nCertificate Date:\n18 December 2024\nCustomer:\nPfizer Manufacturing Belgium NV\nCustomer PO:\n4500917432\nWest Item No.:\n4432/50 Grey FC\nDescription:\n20mm Chlorobutyl Rubber Stopper, FluroTec + B2-Coating\nDrawing No.:\nDWG-4432-050-FCB2-R4\nSection 1 - Compliance Statements\nWest Pharmaceutical Services, Inc. hereby certifies that the above-referenced product has been manufactured, tested,\nand released in accordance with the applicable West Pharmaceutical Services quality specifications and the purchase\norder requirements specified by the customer.\nThis product complies with the following regulatory and pharmacopoeial standards:\n  *  USP <381> Elastomeric Closures for Injections\n  *  EP 3.2.9 Rubber Closures for Containers for Aqueous Parenteral Preparations\n  *  JP 7.03 Rubber Closure Test for Aqueous Infusions\n  *  ISO 8362-5:2016 Rubber Closures for Injection Vials\n  *  21 CFR 177.2600 Rubber Articles Intended for Repeated Use\nFluroTec\u00ae barrier film applied to stopper contact surface is manufactured from modified polytetrafluoroethylene (PTFE)\nresin per West proprietary specification WPS-FT-RESIN-001 Rev C.\nDocument No.: CERT-80372784-000010  |  Rev: -  |  Page 1 of 3\n",
+        "keyword_score": 0
+      }
+    ]
+  },
+  {
+    "query": "Which sub-suppliers does the vendor use?",
+    "predicted_doc_type": "supplier_qualification",
+    "matched_documents": [
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 8,
+        "text": "Vendor Qualification Record\nVendor Name:\nWest Pharmaceutical Services, Inc.\nVendor Address:\n347 Oliver Street, Jersey Shore, PA 17740, USA\nVendor Code:\nVND-WPS-4432-2019\nQualification Status:\nApproved - Active Supplier\nApproved For:\nPrimary Packaging Components (Rubber Closures)\n1. Qualification History\nInitial Qualification Date:\n22 April 2019\nRe-qualification Date:\n15 September 2022\nLast On-Site Audit:\n03 October 2024\nAudit Result:\nSatisfactory (1 minor observation, CAPA closed)\nNext Scheduled Audit:\nOctober 2026\n2. Regulatory & Quality Certifications\nCertification\nCertificate Number\nIssue Date\nExpiry\nISO 9001:2015\nQMS-US-2022-WPS-001\n2022-09-15\n2025-09-14\nISO 15378:2017\nPPC-US-2022-WPS-004\n2022-09-15\n2025-09-14\nFDA Drug Master\nDMF #14738\n2004-01-10\nActive\nEU CEP\nP-2003-0149-2-0\n2020-04-01\nActive\nISO 14001:2015\nENV-US-2022-WPS-007\n2022-09-15\n2025-09-14\n3. Approved Product List\nWest Item No.\nDescription\nCategory\n4432/50 Grey FC\n20mm Chlorobutyl Stopper, FluroTec + B2\nVial Closure\n4432/50 Grey FC S\n20mm Chlorobutyl Stopper, FluroTec + B2, Std\nVial Closure\n1888/50 Grey B2\n20mm Bromobutyl Stopper, B2-Coating\nVial Closure\n6720/50 Grey FC\n13mm Chlorobutyl Stopper, FluroTec\nVial Closure\nDocument No.: VQR-WPS-4432-2024  |  Rev: C  |  Page 1 of 2\n",
+        "keyword_score": 4
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 9,
+        "text": "Vendor Qualification Record (continued)\nVendor: West Pharmaceutical Services (VND-WPS-4432-2019)  |  Page 2 of 2\n4. Manufacturing & Supply Chain\nManufacturing Site:\nWest Pharma Lionville Facility, Lionville, PA 19341\nSecondary Site:\nWest Pharma Eschweiler Facility, Eschweiler, Germany\nDistribution Center:\nWest Pharma Distribution, Swedesboro, NJ 08085\nKey Sub-Suppliers:\nSub-Supplier\nMaterial / Service\nQualification Status\nExxonMobil Chemical\nChlorobutyl rubber (CIIR)\nApproved (2019)\nDaikin Industries\nPTFE resin for FluroTec film\nApproved (2021)\nDow Corning\nDimethicone (B2-coating base)\nApproved (2019)\nCabot Corporation\nCarbon black (N990 filler)\nApproved (2020)\nSTERIS AST\nGamma irradiation processing\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Ref.:\nQA-WPS-PFIZER-2019-0312\nAgreement Effective:\n22 April 2019\nLast Reviewed:\n03 October 2024\nNext Review Due:\nOctober 2026\nKey provisions: Annual audit rights retained by Pfizer; change notification required 90 days prior to any manufacturing\nprocess or material change; CAPA responses within 30 business days for critical findings.\n6. Performance Metrics (12-Month Rolling)\nOn-Time Delivery:\n98.7%\nIncoming Quality Rate:\n99.9% (0 critical NCRs; 1 minor NCR, CAPA closed)\nCAPA Mean Close Time:\n18 business days\nCustomer Complaints:\n0 (last 12 months)\nDocument No.: VQR-WPS-4432-2024  |  Rev: C  |  Page 2 of 2\n",
+        "keyword_score": 3
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 9,
+        "text": "Supplier Qualification Record (continued)\nSupplier: Cytiva Sweden AB (SUP-2019-0847), Page 2 of 2\n4. Supply Chain Information\nManufacturing Site:\nCytiva Eysins Facility, Eysins, Switzerland\nSecondary Site:\nCytiva Uppsala Facility, Uppsala, Sweden\nWarehouse:\nCytiva Distribution Center, Marlborough, MA, USA\nSub-Supplier Information:\nSub-Supplier\nMaterial Provided\nQualification Status\nDuPont (Tyvek)\nLid film (1073B)\nApproved (2020)\nWacker Chemie AG\nSilicone tubing\nApproved (2019)\nSabic Innovative\nPolypropylene resin\nApproved (2021)\nSchott AG\nBorosilicate glass\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Reference: QA-2019-CYTIVA-0847\nAgreement Date:\n14 September 2019\nLast Reviewed:\n20 November 2023\nKey Terms: Annual audit rights, CAPA notification within 48 hours, change notification 90 days prior to implementation.\n6. Performance Metrics (Last 12 Months)\nOn-Time Delivery:\n97.3%\nIncoming Quality:\n99.8% (2 minor NCRs, 0 critical)\nCAPA Response Time:\nAverage 12 days\n",
+        "keyword_score": 1
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 1,
+        "text": "From:\nquality.assurance@westpharma.com\nTo:\npharma.procurement@pfizer.com\nDate:\n12 February 2025\nSubject:\nSDF Package - West Item 4432/50 Grey FC (FluroTec + B2-Coating)\n---------- Forwarded message ----------\nDear Pfizer Procurement Team,\nPlease find attached the complete Supplier Documentation File (SDF) for West Pharmaceutical Services Item 4432/50\nGrey FC, a 20 mm chlorobutyl rubber stopper with FluroTec barrier film and B2-coating, supplied for use in injectable\ndrug product primary packaging.\nThis package covers the following batches released in Q4 2024:\n  D000291847  |  D000291852  |  D000291863  |  D000291871  |  D000291885\nDocuments included in this SDF package:\n  1. Quality Certificate No. 80372784-000010 (3 pages)\n  2. Packaging Component Specification - WPS-SPEC-4432-REV-D\n  3. Animal Origin Statement - WPS-AOS-2024-001\n  4. Compliance Bulletin CB-4432-050-FCB2 Rev 5\n  5. Supplier Qualification Record SUP-WPS-4432-2024\n  6. STERIS Certificate of Processing GTN-2025-0183A\nAll documents are current and comply with ICH Q7, EU GMP Annex 15, and 21 CFR Part 211 requirements for primary\npackaging components.\nPlease do not hesitate to contact our Quality team if you require any additional information or clarification.\nRegards,\nMelissa Hartmann\nSenior Quality Assurance Manager\nWest Pharmaceutical Services, Inc.\nDocument No.: WPS-COV-4432-2025-001  |  Rev: A  |  Page 1 of 1\n",
+        "keyword_score": 1
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 8,
+        "text": "Supplier Qualification Record\nSupplier Name:\nCytiva Sweden AB\nSupplier Address:\nBjorkgatan 30, SE-751 84 Uppsala, Sweden\nSupplier Code:\nSUP-2019-0847\nQualification Status:\nApproved\n1. Qualification History\nInitial Qualification Date:\n14 September 2019\nLast On-Site Audit:\n20 November 2023\nAudit Result:\nApproved (no critical findings)\nNext Scheduled Audit:\nNovember 2025\n2. Certifications\nCertification\nNumber\nValid Until\nISO 9001:2015\nQMS-SE-2021-4847\n2024-12-31\nISO 13485:2016\nMD-SE-2021-1293\n2024-12-31\nFDA Establishment\n3007488211\nActive\nEU Authorized Rep\nAR-2020-CYTIVA\nActive\n3. Approved Products\nPart Number\nDescription\nCategory\n29477427\nHigh Flow Kit F, Modified, AKTA ready\nFlow Kit\n29184612\nHigh Flow Gradient C, Modified\nFlow Kit\n28930182\nLow Flow Kit, AKTA ready\nFlow Kit\n28930183\nHigh Flow Kit, AKTA ready\nFlow Kit\n29021085\nAKTA ready Gradient Low Flow Section\nFlow Section\n29021086\nAKTA ready Gradient High Flow Section\nFlow Section\n",
+        "keyword_score": 0
+      }
+    ]
+  },
+  {
+    "query": "What materials is the stopper made of?",
+    "predicted_doc_type": "material_description",
+    "matched_documents": [
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "material_description",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 7,
+        "text": "West Pharmaceutical Services, Inc.\n347 Oliver Street, Jersey Shore, PA 17740\nTel: +1 (570) 398-5200  |  www.westpharma.com\nCompliance Bulletin\nCB-4432-050-FCB2 Rev 5\nWest Item 4432/50 Grey FC (FluroTec\u00ae + B2-Coating)  |  Issued: 10 January 2025\nTable of Contents\n1.\nProduct Identification and Description\n2.\nChemical Composition\n3.\nPhysical Properties\n4.\nRegulatory Compliance\n5.\nSterilization Information\n6.\nStorage and Handling\n7.\nContact Information\n1. Product Identification and Description\nWest Item 4432/50 Grey FC is a 20 mm diameter chlorobutyl rubber stopper for injectable drug product vials. The\nstopper features a FluroTec\u00ae PTFE barrier film on the drug-contact surface and a B2 silicon-based coating on the\nmachine-contact surface to improve handling and filling line performance.\n2. Chemical Composition\nBase Elastomer: Chlorobutyl rubber (CIIR), synthetic origin\nCuring System: Zinc oxide, stearic acid (no elemental sulfur)\nFiller: Carbon black (furnace grade, ASTM N990)\nFluroTec Film: Modified PTFE (polytetrafluoroethylene), 100% synthetic\nB2-Coating: Dimethicone (polydimethylsiloxane), food/pharma grade\nNo heavy metals, phthalates, latex, or animal-derived components.\n3. Physical Properties\nShore A Hardness: 50 \u00b1 5\nSpecific Gravity: 1.38 \u00b1 0.05 g/cm\u00b3\nOperating Temperature: -40\u00b0C to +121\u00b0C\nAutoclave Compatibility: 121\u00b0C, 30 min (validated)\nGamma Irradiation: Compatible up to 50 kGy\n4. Regulatory Compliance\nComplies with USP <381>, EP 3.2.9, JP 7.03, ISO 8362-5, and 21 CFR 177.2600.\nDocument No.: CB-4432-050-FCB2  |  Rev: Rev 5  |  Page 1 of 1\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "material_description",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 7,
+        "text": "Material Description Sheet\nProduct:\nAKTA ready Gradient Flow Section With Inlets\nPart Number:\n29184612\nRevision:\nAD\n1. Product Description\nThe AKTA ready Gradient Flow Section is a pre-assembled flow path component designed for use with AKTA\nchromatography systems. The flow section includes inlet manifolds, pump tubing, and gradient mixing chambers.\n2. Materials of Construction\nComponent\nMaterial\nSpecification\nHousing\nPolypropylene (PP)\nISO 1873-1, FDA 21 CFR 177.1520\nGaskets\nEPDM Rubber\nUSP Class VI, FDA 21 CFR 177.2600\nPump Tubing\nPlatinum-Cured Silicone\nUSP Class VI, FDA 21 CFR 177.2600\nInlet Fittings\nPEEK\nASTM D6262\nMixing Chamber\nBorosilicate Glass\nUSP Type I, ASTM E438\n3. Sterilization Compatibility\nMethod\nConditions\nCompatible\nAutoclave\n121\u00b0C, 15 min\nYes (tubing)\nGamma Irradiation\n25-40 kGy\nYes (fittings)\nEtO Sterilization\nNot validated\nNo\n4. Physical Properties\nDimensions:\n245 x 120 x 85 mm\nWeight:\n380 g (assembled)\nOperating Temperature:\n+2\u00b0C to +40\u00b0C\nOperating Pressure:\nMax 5 MPa\nShelf Life:\n2 years from date of manufacture\n",
+        "keyword_score": 1
+      }
+    ]
+  },
+  {
+    "query": "When was the supplier last audited?",
+    "predicted_doc_type": "supplier_qualification",
+    "matched_documents": [
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 9,
+        "text": "Supplier Qualification Record (continued)\nSupplier: Cytiva Sweden AB (SUP-2019-0847), Page 2 of 2\n4. Supply Chain Information\nManufacturing Site:\nCytiva Eysins Facility, Eysins, Switzerland\nSecondary Site:\nCytiva Uppsala Facility, Uppsala, Sweden\nWarehouse:\nCytiva Distribution Center, Marlborough, MA, USA\nSub-Supplier Information:\nSub-Supplier\nMaterial Provided\nQualification Status\nDuPont (Tyvek)\nLid film (1073B)\nApproved (2020)\nWacker Chemie AG\nSilicone tubing\nApproved (2019)\nSabic Innovative\nPolypropylene resin\nApproved (2021)\nSchott AG\nBorosilicate glass\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Reference: QA-2019-CYTIVA-0847\nAgreement Date:\n14 September 2019\nLast Reviewed:\n20 November 2023\nKey Terms: Annual audit rights, CAPA notification within 48 hours, change notification 90 days prior to implementation.\n6. Performance Metrics (Last 12 Months)\nOn-Time Delivery:\n97.3%\nIncoming Quality:\n99.8% (2 minor NCRs, 0 critical)\nCAPA Response Time:\nAverage 12 days\n",
+        "keyword_score": 6
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 8,
+        "text": "Supplier Qualification Record\nSupplier Name:\nCytiva Sweden AB\nSupplier Address:\nBjorkgatan 30, SE-751 84 Uppsala, Sweden\nSupplier Code:\nSUP-2019-0847\nQualification Status:\nApproved\n1. Qualification History\nInitial Qualification Date:\n14 September 2019\nLast On-Site Audit:\n20 November 2023\nAudit Result:\nApproved (no critical findings)\nNext Scheduled Audit:\nNovember 2025\n2. Certifications\nCertification\nNumber\nValid Until\nISO 9001:2015\nQMS-SE-2021-4847\n2024-12-31\nISO 13485:2016\nMD-SE-2021-1293\n2024-12-31\nFDA Establishment\n3007488211\nActive\nEU Authorized Rep\nAR-2020-CYTIVA\nActive\n3. Approved Products\nPart Number\nDescription\nCategory\n29477427\nHigh Flow Kit F, Modified, AKTA ready\nFlow Kit\n29184612\nHigh Flow Gradient C, Modified\nFlow Kit\n28930182\nLow Flow Kit, AKTA ready\nFlow Kit\n28930183\nHigh Flow Kit, AKTA ready\nFlow Kit\n29021085\nAKTA ready Gradient Low Flow Section\nFlow Section\n29021086\nAKTA ready Gradient High Flow Section\nFlow Section\n",
+        "keyword_score": 5
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 9,
+        "text": "Vendor Qualification Record (continued)\nVendor: West Pharmaceutical Services (VND-WPS-4432-2019)  |  Page 2 of 2\n4. Manufacturing & Supply Chain\nManufacturing Site:\nWest Pharma Lionville Facility, Lionville, PA 19341\nSecondary Site:\nWest Pharma Eschweiler Facility, Eschweiler, Germany\nDistribution Center:\nWest Pharma Distribution, Swedesboro, NJ 08085\nKey Sub-Suppliers:\nSub-Supplier\nMaterial / Service\nQualification Status\nExxonMobil Chemical\nChlorobutyl rubber (CIIR)\nApproved (2019)\nDaikin Industries\nPTFE resin for FluroTec film\nApproved (2021)\nDow Corning\nDimethicone (B2-coating base)\nApproved (2019)\nCabot Corporation\nCarbon black (N990 filler)\nApproved (2020)\nSTERIS AST\nGamma irradiation processing\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Ref.:\nQA-WPS-PFIZER-2019-0312\nAgreement Effective:\n22 April 2019\nLast Reviewed:\n03 October 2024\nNext Review Due:\nOctober 2026\nKey provisions: Annual audit rights retained by Pfizer; change notification required 90 days prior to any manufacturing\nprocess or material change; CAPA responses within 30 business days for critical findings.\n6. Performance Metrics (12-Month Rolling)\nOn-Time Delivery:\n98.7%\nIncoming Quality Rate:\n99.9% (0 critical NCRs; 1 minor NCR, CAPA closed)\nCAPA Mean Close Time:\n18 business days\nCustomer Complaints:\n0 (last 12 months)\nDocument No.: VQR-WPS-4432-2024  |  Rev: C  |  Page 2 of 2\n",
+        "keyword_score": 4
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 1,
+        "text": "From:\nquality.assurance@westpharma.com\nTo:\npharma.procurement@pfizer.com\nDate:\n12 February 2025\nSubject:\nSDF Package - West Item 4432/50 Grey FC (FluroTec + B2-Coating)\n---------- Forwarded message ----------\nDear Pfizer Procurement Team,\nPlease find attached the complete Supplier Documentation File (SDF) for West Pharmaceutical Services Item 4432/50\nGrey FC, a 20 mm chlorobutyl rubber stopper with FluroTec barrier film and B2-coating, supplied for use in injectable\ndrug product primary packaging.\nThis package covers the following batches released in Q4 2024:\n  D000291847  |  D000291852  |  D000291863  |  D000291871  |  D000291885\nDocuments included in this SDF package:\n  1. Quality Certificate No. 80372784-000010 (3 pages)\n  2. Packaging Component Specification - WPS-SPEC-4432-REV-D\n  3. Animal Origin Statement - WPS-AOS-2024-001\n  4. Compliance Bulletin CB-4432-050-FCB2 Rev 5\n  5. Supplier Qualification Record SUP-WPS-4432-2024\n  6. STERIS Certificate of Processing GTN-2025-0183A\nAll documents are current and comply with ICH Q7, EU GMP Annex 15, and 21 CFR Part 211 requirements for primary\npackaging components.\nPlease do not hesitate to contact our Quality team if you require any additional information or clarification.\nRegards,\nMelissa Hartmann\nSenior Quality Assurance Manager\nWest Pharmaceutical Services, Inc.\nDocument No.: WPS-COV-4432-2025-001  |  Rev: A  |  Page 1 of 1\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 8,
+        "text": "Vendor Qualification Record\nVendor Name:\nWest Pharmaceutical Services, Inc.\nVendor Address:\n347 Oliver Street, Jersey Shore, PA 17740, USA\nVendor Code:\nVND-WPS-4432-2019\nQualification Status:\nApproved - Active Supplier\nApproved For:\nPrimary Packaging Components (Rubber Closures)\n1. Qualification History\nInitial Qualification Date:\n22 April 2019\nRe-qualification Date:\n15 September 2022\nLast On-Site Audit:\n03 October 2024\nAudit Result:\nSatisfactory (1 minor observation, CAPA closed)\nNext Scheduled Audit:\nOctober 2026\n2. Regulatory & Quality Certifications\nCertification\nCertificate Number\nIssue Date\nExpiry\nISO 9001:2015\nQMS-US-2022-WPS-001\n2022-09-15\n2025-09-14\nISO 15378:2017\nPPC-US-2022-WPS-004\n2022-09-15\n2025-09-14\nFDA Drug Master\nDMF #14738\n2004-01-10\nActive\nEU CEP\nP-2003-0149-2-0\n2020-04-01\nActive\nISO 14001:2015\nENV-US-2022-WPS-007\n2022-09-15\n2025-09-14\n3. Approved Product List\nWest Item No.\nDescription\nCategory\n4432/50 Grey FC\n20mm Chlorobutyl Stopper, FluroTec + B2\nVial Closure\n4432/50 Grey FC S\n20mm Chlorobutyl Stopper, FluroTec + B2, Std\nVial Closure\n1888/50 Grey B2\n20mm Bromobutyl Stopper, B2-Coating\nVial Closure\n6720/50 Grey FC\n13mm Chlorobutyl Stopper, FluroTec\nVial Closure\nDocument No.: VQR-WPS-4432-2024  |  Rev: C  |  Page 1 of 2\n",
+        "keyword_score": 2
+      }
+    ]
+  },
+  {
+    "query": "What is the expiry date of batch D000291852?",
+    "predicted_doc_type": "certificate_of_quality",
+    "matched_documents": [
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 3,
+        "text": "QUALITY CERTIFICATE No. 80372784-000010 (continued)\nWest Item: 4432/50 Grey FC  |  Page 2 of 3\nSection 2 - Batch / Lot Identification\nBatch No.\nQty (k pcs)\nMfg Date\nExp Date\nRelease Date\nSite\nD000291847\n500\n2024-10-02\n2029-10-01\n2024-10-21\nLionville, PA\nD000291852\n500\n2024-10-08\n2029-10-07\n2024-10-28\nLionville, PA\nD000291863\n500\n2024-10-15\n2029-10-14\n2024-11-04\nLionville, PA\nD000291871\n500\n2024-10-22\n2029-10-21\n2024-11-11\nLionville, PA\nD000291885\n500\n2024-10-30\n2029-10-29\n2024-11-19\nLionville, PA\nSection 2a - Traceability\nEach batch is manufactured from a single compound lot. Compound lot numbers are traceable to raw material\ncertificates of analysis retained on file at the manufacturing site (Lionville, PA) for a minimum of 15 years per 21 CFR\n211.180.\nBatch No.\nCompound Lot\nElastomer Raw Material\nCOA Reference\nD000291847\nCMP-24-C-00412\nChlorobutyl Rubber, Grade 1066\nCOA-4412-2024-09\nD000291852\nCMP-24-C-00412\nChlorobutyl Rubber, Grade 1066\nCOA-4412-2024-09\nD000291863\nCMP-24-C-00419\nChlorobutyl Rubber, Grade 1066\nCOA-4419-2024-10\nD000291871\nCMP-24-C-00419\nChlorobutyl Rubber, Grade 1066\nCOA-4419-2024-10\nD000291885\nCMP-24-C-00427\nChlorobutyl Rubber, Grade 1066\nCOA-4427-2024-10\nDocument No.: CERT-80372784-000010  |  Rev: -  |  Page 2 of 3\n",
+        "keyword_score": 19
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 10,
+        "text": "STERIS Applied Sterilization Technologies\n5960 Heisley Road, Mentor, OH 44060\nTel: +1 (440) 354-2600  |  www.steris-ast.com\nCERTIFICATE OF PROCESSING\nGamma Radiation Sterilization / Dose Audit\nProcess Run ID:\nGTN-2025-0183A\nProcess Date:\n08 January 2025\nFacility:\nSTERIS AST, Mentor Gamma Facility, Mentor, OH 44060\nPrepared For:\nWest Pharmaceutical Services, Inc., Lionville, PA\nCustomer Ref.:\nWPS-PO-2024-GA-00183\nProduct:\n4432/50 Grey FC Rubber Stoppers (20mm)\nSterilization Mode:\nGamma Radiation (Co-60 Source)\nValidated Dose Range:\n25.0 kGy (min) - 50.0 kGy (max)\nProduct Lot Table\nBatch No.\nQty (k pcs)\nPallet ID\nMin Dose (kGy)\nMax Dose (kGy)\nResult\nD000291847\n500\nPLT-0183-01\n27.3\n38.1\nPASS\nD000291852\n500\nPLT-0183-02\n26.9\n37.8\nPASS\nD000291863\n500\nPLT-0183-03\n27.5\n38.4\nPASS\nD000291871\n500\nPLT-0183-04\n27.1\n38.0\nPASS\nD000291885\n500\nPLT-0183-05\n26.8\n37.6\nPASS\nDosimetry Summary\nDosimeters Used:\nHarwell Amber (HW-Amber-1010-25)\nDosimeter Traceability:\nNIST-traceable calibration, Cal. Date: 2024-11-01\nNumber of Dosimeters:\n30 (6 per pallet - corners + centre)\nOverall Min Dose:\n26.8 kGy  (Pallet PLT-0183-05, Position B-1)\nOverall Max Dose:\n38.4 kGy  (Pallet PLT-0183-03, Position D-6)\nDose Uniformity Ratio:\n1.43  (max/min; specification <= 2.50)\nSignature Manifest\nRole\nName / Title\nDate\nProcessed By:\nJ. Kowalski, Radiation Technician\n08 Jan 2025\nReviewed By:\nS. Patel, Process Physicist\n09 Jan 2025\nAuthorised By:\nT. Nguyen, Quality Manager (STERIS Mentor)\n09 Jan 2025\nCertificate No.: GTN-2025-0183A  |  STERIS AST, Mentor, OH  |  Page 1 of 1\n",
+        "keyword_score": 16
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 2,
+        "text": "Certificate of Quality\nThis product is manufactured in compliance with our ISO 9001 certified quality management system.\nIssued by Cytiva Westborough Quality Assurance\nThis document has been electronically produced and is valid without a signature.\nProduct:\nAKTA ready Low Flow Kit\nLot Number:\n18356721\nProduct Article Number:\n28 9301 82\nDate of Manufacture:\n20240315\nProduct Description:\nLow Flow Kit, AKTA ready\nExpiration Date:\n20260315\nProduct Release Criteria\nWe hereby certify that the defined product has been manufactured to meet its specifications and have been verified to\nmeet predetermined Critical to Quality attributes.\nDescription\nTest Method\nResult\nAutoclave - Pump tubing\n121\u00b0C > 15 min\nConforms\nGamma Irradiation - Inlets\n25.0 - 40.0 kGy\nConforms\nFlow Rate Test\nPer specification\nConforms\nPressure Integrity Test\nPer specification\nConforms\nVisual Inspection\nPer specification\nConforms\nPackage Integrity\nPer specification\nConforms\ncytiva.com\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 3,
+        "text": "Certificate of Quality\nThis product is manufactured in compliance with our ISO 9001 certified quality management system.\nIssued by Cytiva Westborough Quality Assurance\nThis document has been electronically produced and is valid without a signature.\nProduct:\nAKTA ready High Flow Kit\nLot Number:\n15102934\nProduct Article Number:\n28 9301 83\nDate of Manufacture:\n20190712\nProduct Description:\nHigh Flow Kit, AKTA ready\nExpiration Date:\n20210712\nProduct Release Criteria\nWe hereby certify that the defined product has been manufactured to meet its specifications and have been verified to\nmeet predetermined Critical to Quality attributes.\nDescription\nTest Method\nResult\nAutoclave - Pump tubing\n121\u00b0C > 15 min\nConforms\nGamma Irradiation - Inlets\n25.0 - 40.0 kGy\nConforms\nFlow Rate Test\nPer specification\nConforms\nPressure Integrity Test\nPer specification\nConforms\nVisual Inspection\nPer specification\nConforms\nPackage Integrity\nPer specification\nConforms\ncytiva.com\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 4,
+        "text": "QUALITY CERTIFICATE No. 80372784-000010 (continued)\nWest Item: 4432/50 Grey FC  |  Page 3 of 3\nSection 3 - Analysis / Test Results\nTest Parameter\nSpecification\nD847\nD852\nD863\nD871\nD885\nAppearance\nNo visible defects\nPass\nPass\nPass\nPass\nPass\nDimensions (height, mm)\n6.80 \u00b1 0.30\n6.82\n6.81\n6.79\n6.83\n6.80\nShore A Hardness\n50 \u00b1 5\n52\n51\n50\n53\n52\nResidue on Ignition (%)\n<= 1.0\n0.42\n0.44\n0.41\n0.43\n0.42\nFragmentation (pcs)\n<= 10\n2\n1\n3\n2\n2\nSelf-Sealing (passes)\n>= 10\n10\n10\n10\n10\n10\nPenetration Force (N)\n10 - 50\n22\n24\n21\n23\n22\nExtractables pH\n5.0 - 7.5\n6.8\n6.9\n6.7\n6.8\n6.8\nFluroTec Adhesion\nConforms\nConf\nConf\nConf\nConf\nConf\nParticulate Matter\nPer USP <381>\nPass\nPass\nPass\nPass\nPass\nSterility (final pkg)\nSterile\nPass\nPass\nPass\nPass\nPass\nAuthorised Release Statement\nAll batches listed above have been reviewed against applicable specifications and are hereby released for use in\nparenteral drug product manufacturing.\nAuthorised by: Director, Analytical Sciences & Quality Release\nWest Pharmaceutical Services, Inc., Lionville, PA 19341\nDate: 18 December 2024\nThis document has been electronically signed and is valid without a wet signature.\nDocument No.: CERT-80372784-000010  |  Rev: -  |  Page 3 of 3\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "certificate_of_quality",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 2,
+        "text": "West Pharmaceutical Services, Inc.\n347 Oliver Street, Jersey Shore, PA 17740\nTel: +1 (570) 398-5200  |  www.westpharma.com\nQUALITY CERTIFICATE\nNo. 80372784-000010\nCertificate Date:\n18 December 2024\nCustomer:\nPfizer Manufacturing Belgium NV\nCustomer PO:\n4500917432\nWest Item No.:\n4432/50 Grey FC\nDescription:\n20mm Chlorobutyl Rubber Stopper, FluroTec + B2-Coating\nDrawing No.:\nDWG-4432-050-FCB2-R4\nSection 1 - Compliance Statements\nWest Pharmaceutical Services, Inc. hereby certifies that the above-referenced product has been manufactured, tested,\nand released in accordance with the applicable West Pharmaceutical Services quality specifications and the purchase\norder requirements specified by the customer.\nThis product complies with the following regulatory and pharmacopoeial standards:\n  *  USP <381> Elastomeric Closures for Injections\n  *  EP 3.2.9 Rubber Closures for Containers for Aqueous Parenteral Preparations\n  *  JP 7.03 Rubber Closure Test for Aqueous Infusions\n  *  ISO 8362-5:2016 Rubber Closures for Injection Vials\n  *  21 CFR 177.2600 Rubber Articles Intended for Repeated Use\nFluroTec\u00ae barrier film applied to stopper contact surface is manufactured from modified polytetrafluoroethylene (PTFE)\nresin per West proprietary specification WPS-FT-RESIN-001 Rev C.\nDocument No.: CERT-80372784-000010  |  Rev: -  |  Page 1 of 3\n",
+        "keyword_score": 1
+      }
+    ]
+  },
+  {
+    "query": "How should the flow kits be stored?",
+    "predicted_doc_type": "cover_letter",
+    "matched_documents": [
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "cover_letter",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 1,
+        "text": "Cytiva\n100 Results Way\nMarlborough, MA 01752\nUnited States\nPage 1 / 1\ncytiva.com\n3 June, 2022\nRe: AKTA ready Flow Kit Storage Conditions\nTo Whom It May Concern,\nThe recommended storage temperature for standard AKTA ready flow kits is provided in Section 8.3 of the Operating\nInstructions 28960345 and specified as > +5\u00b0C. This recommendation also applies to all modified AKTA ready flow kits\nas well, including the two listed in the below table. Extended storage below the recommended +5\u00b0C could lead to\nbrittleness or cracking of the plastic connectors. However, the operating temperature of AKTA ready flow kits is +2\u00b0C to\n+40\u00b0C. If the kits are allowed to acclimate to a warmer temperature before being used this would reduce the risk of\ndamage to the kit during setup and handling.\nDescription\nPart Number\nOperating Temperature\nHigh Flow Kit F, Modified, AKTA ready\n29477427\n+2\u00b0C to +40\u00b0C\nHigh Flow Gradient C, Modified, AKTA ready\n29184612\n+2\u00b0C to +40\u00b0C\nOperating Instructions access link:\nhttps://cdn.cytivalifesciences.com/api/public/content/digi-14501-pdf\nThis letter is provided for informational purposes only and does not affect or create any rights or obligations in regard to\neither party.\nSincerely,\nCytiva Quality Assurance\n",
+        "keyword_score": 10
+      }
+    ]
+  },
+  {
+    "query": "Which documents are included in West's SDF package?",
+    "predicted_doc_type": "packaging_specification",
+    "matched_documents": [
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "packaging_specification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 5,
+        "text": "West Pharmaceutical Services, Inc.\n347 Oliver Street, Jersey Shore, PA 17740\nTel: +1 (570) 398-5200  |  www.westpharma.com\nPackaging Component Specification\nDocument No.:\nWPS-SPEC-4432-REV-D\nRevision:\nD\nEffective Date:\n2024-01-15\nProduct:\n4432/50 Grey FC - 20mm Chlorobutyl Stopper\nDrawing Ref.:\nDWG-4432-PKG-R6\n1. Scope\nThis specification defines the primary and secondary packaging configuration for Item 4432/50 Grey FC rubber closures\nas supplied to Pfizer Manufacturing Belgium NV for use in parenteral vial filling operations.\n2. Primary Packaging\nComponent\nMaterial / Grade\nSpecification / Standard\nStopper Bag\nPolyethylene (LDPE)\nWPS-MAT-PE-001, 0.08 mm min wall\nBag Closure\nCable tie + heat seal\nHermetic seal, 5 kPa burst\nDesiccant Sachet\nSilica gel, 10 g\nPer MIL-D-3464E\n3. Secondary Packaging\nComponent\nMaterial / Grade\nSpecification\nOuter Carton\nCorrugated cardboard\nB-flute, 32 ECT min\nPacking Density\n5,000 pcs per bag\nPer DWG-4432-PKG-R6\nBags per Carton\n10 bags (50,000 pcs)\nMax gross wt: 18 kg\n4. Revision History\nRev\nDate\nECN No.\nDescription of Change\nA\n2017-03-10\nECN-2017-0041\nInitial release\nB\n2019-08-22\nECN-2019-0183\nAdded desiccant sachet (humidity control)\nC\n2022-05-04\nECN-2022-0309\nIncreased packing density 4k to 5k per bag\nD\n2024-01-15\nECN-2024-0027\nUpdated carton ECT rating (28 to 32 min)\nDocument No.: WPS-SPEC-4432-REV-D  |  Rev: D  |  Page 1 of 1\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "packaging_specification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 4,
+        "text": "Packaging Component Specification\nDocument Number:\nPKG-SPEC-2023-0847\nRevision:\nC\nEffective Date:\n2023-11-08\nComponent:\nAKTA ready Flow Kit Packaging Assembly\nDrawing Reference:\nDWG-29477427-PKG-R3\n1. Scope\nThis specification defines the packaging configuration for AKTA ready Flow Kit assemblies, including primary and\nsecondary packaging components.\n2. Materials\nComponent\nMaterial\nSpecification\nBlister Tray\nPETG\nASTM D1003, min 92% clarity\nLid Film\nTyvek 1073B\nPer DuPont specification\nSecondary Carton\nCorrugated\nECT-32, C-flute\nInner Cushion\nPE Foam\n2 lb density, 1 inch thick\n3. Part Numbers\nAssembly Part Number:\nPKG-29477427-C\nBlister Tray:\nPKG-TRAY-4477-B\nLid Film:\nPKG-LID-1073-A\nSecondary Carton:\nPKG-BOX-9301-A\n",
+        "keyword_score": 0
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "packaging_specification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 5,
+        "text": "Packaging Component Specification (continued)\nDocument Number: PKG-SPEC-2023-0847, Page 2 of 2\n4. Configuration Change History\nRev\nDate\nECN Number\nChange Description\nA\n2019-03-15\nECN-2019-0312\nInitial release - PVC blister tray\nB\n2021-06-22\nECN-2021-0541\nUpdated tray insert dimensions per customer feedback (+3mm)\nC\n2023-11-08\nECN-2023-0847\nChanged blister material from PVC to PETG (EU Reg 2023/1297)\n5. Drawing Changes\nDrawing DWG-29477427-PKG-R3 supersedes DWG-29477427-PKG-R2.\nKey changes located on drawing:\n- Sheet 1: Updated tray cavity dimensions (Section B-B)\n- Sheet 2: New lid film sealing parameters (Detail C)\n- Sheet 3: Updated label placement (per ECN-2023-0847)\nApproved by: Packaging Engineering, Cytiva Uppsala\nDate: 2023-11-08\n",
+        "keyword_score": 0
+      }
+    ]
+  },
+  {
+    "query": "Show me all supplier documentation",
+    "predicted_doc_type": "supplier_qualification",
+    "matched_documents": [
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 8,
+        "text": "Supplier Qualification Record\nSupplier Name:\nCytiva Sweden AB\nSupplier Address:\nBjorkgatan 30, SE-751 84 Uppsala, Sweden\nSupplier Code:\nSUP-2019-0847\nQualification Status:\nApproved\n1. Qualification History\nInitial Qualification Date:\n14 September 2019\nLast On-Site Audit:\n20 November 2023\nAudit Result:\nApproved (no critical findings)\nNext Scheduled Audit:\nNovember 2025\n2. Certifications\nCertification\nNumber\nValid Until\nISO 9001:2015\nQMS-SE-2021-4847\n2024-12-31\nISO 13485:2016\nMD-SE-2021-1293\n2024-12-31\nFDA Establishment\n3007488211\nActive\nEU Authorized Rep\nAR-2020-CYTIVA\nActive\n3. Approved Products\nPart Number\nDescription\nCategory\n29477427\nHigh Flow Kit F, Modified, AKTA ready\nFlow Kit\n29184612\nHigh Flow Gradient C, Modified\nFlow Kit\n28930182\nLow Flow Kit, AKTA ready\nFlow Kit\n28930183\nHigh Flow Kit, AKTA ready\nFlow Kit\n29021085\nAKTA ready Gradient Low Flow Section\nFlow Section\n29021086\nAKTA ready Gradient High Flow Section\nFlow Section\n",
+        "keyword_score": 4
+      },
+      {
+        "file_id": "1c89f2db-a339-5d5e-92b1-dc0729404556",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2024",
+        "filename": "pharma-blob-sample.pdf",
+        "page_number": 9,
+        "text": "Supplier Qualification Record (continued)\nSupplier: Cytiva Sweden AB (SUP-2019-0847), Page 2 of 2\n4. Supply Chain Information\nManufacturing Site:\nCytiva Eysins Facility, Eysins, Switzerland\nSecondary Site:\nCytiva Uppsala Facility, Uppsala, Sweden\nWarehouse:\nCytiva Distribution Center, Marlborough, MA, USA\nSub-Supplier Information:\nSub-Supplier\nMaterial Provided\nQualification Status\nDuPont (Tyvek)\nLid film (1073B)\nApproved (2020)\nWacker Chemie AG\nSilicone tubing\nApproved (2019)\nSabic Innovative\nPolypropylene resin\nApproved (2021)\nSchott AG\nBorosilicate glass\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Reference: QA-2019-CYTIVA-0847\nAgreement Date:\n14 September 2019\nLast Reviewed:\n20 November 2023\nKey Terms: Annual audit rights, CAPA notification within 48 hours, change notification 90 days prior to implementation.\n6. Performance Metrics (Last 12 Months)\nOn-Time Delivery:\n97.3%\nIncoming Quality:\n99.8% (2 minor NCRs, 0 critical)\nCAPA Response Time:\nAverage 12 days\n",
+        "keyword_score": 4
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 1,
+        "text": "From:\nquality.assurance@westpharma.com\nTo:\npharma.procurement@pfizer.com\nDate:\n12 February 2025\nSubject:\nSDF Package - West Item 4432/50 Grey FC (FluroTec + B2-Coating)\n---------- Forwarded message ----------\nDear Pfizer Procurement Team,\nPlease find attached the complete Supplier Documentation File (SDF) for West Pharmaceutical Services Item 4432/50\nGrey FC, a 20 mm chlorobutyl rubber stopper with FluroTec barrier film and B2-coating, supplied for use in injectable\ndrug product primary packaging.\nThis package covers the following batches released in Q4 2024:\n  D000291847  |  D000291852  |  D000291863  |  D000291871  |  D000291885\nDocuments included in this SDF package:\n  1. Quality Certificate No. 80372784-000010 (3 pages)\n  2. Packaging Component Specification - WPS-SPEC-4432-REV-D\n  3. Animal Origin Statement - WPS-AOS-2024-001\n  4. Compliance Bulletin CB-4432-050-FCB2 Rev 5\n  5. Supplier Qualification Record SUP-WPS-4432-2024\n  6. STERIS Certificate of Processing GTN-2025-0183A\nAll documents are current and comply with ICH Q7, EU GMP Annex 15, and 21 CFR Part 211 requirements for primary\npackaging components.\nPlease do not hesitate to contact our Quality team if you require any additional information or clarification.\nRegards,\nMelissa Hartmann\nSenior Quality Assurance Manager\nWest Pharmaceutical Services, Inc.\nDocument No.: WPS-COV-4432-2025-001  |  Rev: A  |  Page 1 of 1\n",
+        "keyword_score": 4
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 9,
+        "text": "Vendor Qualification Record (continued)\nVendor: West Pharmaceutical Services (VND-WPS-4432-2019)  |  Page 2 of 2\n4. Manufacturing & Supply Chain\nManufacturing Site:\nWest Pharma Lionville Facility, Lionville, PA 19341\nSecondary Site:\nWest Pharma Eschweiler Facility, Eschweiler, Germany\nDistribution Center:\nWest Pharma Distribution, Swedesboro, NJ 08085\nKey Sub-Suppliers:\nSub-Supplier\nMaterial / Service\nQualification Status\nExxonMobil Chemical\nChlorobutyl rubber (CIIR)\nApproved (2019)\nDaikin Industries\nPTFE resin for FluroTec film\nApproved (2021)\nDow Corning\nDimethicone (B2-coating base)\nApproved (2019)\nCabot Corporation\nCarbon black (N990 filler)\nApproved (2020)\nSTERIS AST\nGamma irradiation processing\nApproved (2019)\n5. Quality Agreement\nQuality Agreement Ref.:\nQA-WPS-PFIZER-2019-0312\nAgreement Effective:\n22 April 2019\nLast Reviewed:\n03 October 2024\nNext Review Due:\nOctober 2026\nKey provisions: Annual audit rights retained by Pfizer; change notification required 90 days prior to any manufacturing\nprocess or material change; CAPA responses within 30 business days for critical findings.\n6. Performance Metrics (12-Month Rolling)\nOn-Time Delivery:\n98.7%\nIncoming Quality Rate:\n99.9% (0 critical NCRs; 1 minor NCR, CAPA closed)\nCAPA Mean Close Time:\n18 business days\nCustomer Complaints:\n0 (last 12 months)\nDocument No.: VQR-WPS-4432-2024  |  Rev: C  |  Page 2 of 2\n",
+        "keyword_score": 2
+      },
+      {
+        "file_id": "06de3fe2-dd6b-5a9a-b0d0-57ca0b1f2987",
+        "user_id": "xyz",
+        "doc_type": "supplier_qualification",
+        "year": "2025",
+        "filename": "pharma-blob-test.pdf",
+        "page_number": 8,
+        "text": "Vendor Qualification Record\nVendor Name:\nWest Pharmaceutical Services, Inc.\nVendor Address:\n347 Oliver Street, Jersey Shore, PA 17740, USA\nVendor Code:\nVND-WPS-4432-2019\nQualification Status:\nApproved - Active Supplier\nApproved For:\nPrimary Packaging Components (Rubber Closures)\n1. Qualification History\nInitial Qualification Date:\n22 April 2019\nRe-qualification Date:\n15 September 2022\nLast On-Site Audit:\n03 October 2024\nAudit Result:\nSatisfactory (1 minor observation, CAPA closed)\nNext Scheduled Audit:\nOctober 2026\n2. Regulatory & Quality Certifications\nCertification\nCertificate Number\nIssue Date\nExpiry\nISO 9001:2015\nQMS-US-2022-WPS-001\n2022-09-15\n2025-09-14\nISO 15378:2017\nPPC-US-2022-WPS-004\n2022-09-15\n2025-09-14\nFDA Drug Master\nDMF #14738\n2004-01-10\nActive\nEU CEP\nP-2003-0149-2-0\n2020-04-01\nActive\nISO 14001:2015\nENV-US-2022-WPS-007\n2022-09-15\n2025-09-14\n3. Approved Product List\nWest Item No.\nDescription\nCategory\n4432/50 Grey FC\n20mm Chlorobutyl Stopper, FluroTec + B2\nVial Closure\n4432/50 Grey FC S\n20mm Chlorobutyl Stopper, FluroTec + B2, Std\nVial Closure\n1888/50 Grey B2\n20mm Bromobutyl Stopper, B2-Coating\nVial Closure\n6720/50 Grey FC\n13mm Chlorobutyl Stopper, FluroTec\nVial Closure\nDocument No.: VQR-WPS-4432-2024  |  Rev: C  |  Page 1 of 2\n",
+        "keyword_score": 1
+      }
+    ]
+  }
+]

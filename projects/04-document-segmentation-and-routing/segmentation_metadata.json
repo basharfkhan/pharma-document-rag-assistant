@@ -1,0 +1,62 @@
+[
+  {
+    "page": 0,
+    "is_new_doc": "Yes",
+    "doc_type": "Cover Letter",
+    "page_in_doc": 0
+  },
+  {
+    "page": 1,
+    "is_new_doc": "Yes",
+    "doc_type": "Certificate of Quality",
+    "page_in_doc": 0
+  },
+  {
+    "page": 2,
+    "is_new_doc": "Yes",
+    "doc_type": "Certificate of Quality",
+    "page_in_doc": 0
+  },
+  {
+    "page": 3,
+    "is_new_doc": "Yes",
+    "doc_type": "Packaging Specification",
+    "page_in_doc": 0
+  },
+  {
+    "page": 4,
+    "is_new_doc": "No",
+    "doc_type": "Packaging Specification",
+    "page_in_doc": 1
+  },
+  {
+    "page": 5,
+    "is_new_doc": "Yes",
+    "doc_type": "BSE/TSE Declaration",
+    "page_in_doc": 0
+  },
+  {
+    "page": 6,
+    "is_new_doc": "Yes",
+    "doc_type": "Material Description",
+    "page_in_doc": 0
+  },
+  {
+    "page": 7,
+    "is_new_doc": "Yes",
+    "doc_type": "Supplier Qualification",
+    "page_in_doc": 0
+  },
+  {
+    "page": 8,
+    "is_new_doc": "No",
+    "doc_type": "Supplier Qualification",
+    "page_in_doc": 1
+  },
+  {
+    "page": 9,
+    "is_new_doc": "Yes",
+    "doc_type": "Chain of Custody",
+    "page_in_doc": 0
+  }
+]
